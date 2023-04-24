@@ -1,0 +1,209 @@
+/* Cor de fundo */
+.cor-de-fundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(5, 1, 73, 0.691) 0%, rgb(134, 134, 189) 35%, rgba(81,158,174,1) 100%);
+  background-blend-mode: multiply, normal;
+  z-index: -1;
+}
+
+.dropbtn {
+  width: 222px;
+  top: 80px;
+  background-color: #D83737;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 34px;
+}
+
+.dropdown {
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Contêiner principal */
+.main-container {
+  min-height: 2000vh;
+  position: relative;
+}
+
+.whatsapp-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 3px;
+  left: 11px;
+}
+/* ok */
+.whatsapp {
+  width: 56px;
+  height: 58px;
+  background: url(whatsapp.jpg);
+  border-radius: 43px;
+  z-index: 10;
+}
+/* ok */
+.phone-number {
+  margin-left: 10px;
+  width: 100px;
+  height: 39px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  color: #FFFFFF;
+  z-index: 10;
+}
+/* ok */
+.medica-paciente {
+  position: absolute;
+  width: 1445px;
+  height: 275px;
+  top: 68px;
+  background: url("medica-paciente.png");
+  background-size: cover;
+  border-radius: 0px 0px 98px 0px;
+}
+.foto-apresenta {
+  position: absolute;
+  width: 234px;
+  height: 297.54px;
+  left: 110px;
+  top: 468px;
+  background: url("foto-apresenta.jpg");
+  background-size: 100%;
+  border-radius: 32px 32px 32px 32px;
+  opacity: 1;
+}
+/* Escolha aqui seu exame e saiba mais sobre ele! */
+.exame-text {
+  position: absolute;
+  left: 240px;
+  top: 6px;
+  width: 341px;
+  height: 30px;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #abfdff;
+}
+.texto-apresentacao { 
+  position: absolute;
+  left: 420px;
+  top: 426px;
+  width: 948px;
+  height: 30px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  color: #043637;
+}
+
+.rectangle-2 {
+  position: absolute;
+  left: 467px;
+  top: 879px;
+  width: 806px;
+  height: 227px;
+  background: #F5F5F5;
+  border-radius: 51px;
+}
+.custom-text {
+  position: absolute;
+  left: 714px;
+  top: 1440px;
+  width: 804px;
+  height: 177px;
+  font-family: 'Apple Chancery', cursive; /* Substitua por uma fonte do Google Fonts ou uma fonte padrão da web, se necessário */
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  text-indent: 2px;
+  text-decoration: underline;
+  color: #043637;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.custom-text-2 {
+  position: absolute;
+  width: 788px;
+  top: 465px;
+  left: 360px;
+  height: 274px;
+  font-family: 'Apple Chancery', cursive; /* Substitua por uma fonte do Google Fonts ou uma fonte padrão da web, se necessário */
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 19px;
+  text-indent: 2px;
+  color: #f1f1f1;
+}
+
+.group-3 {
+  position: absolute;
+  left: 360px;
+  top: 700px;
+  width: 816px;
+  height: 203px;
+  border-radius: 10px;
+}
+
+.group-3 {
+  position: absolute;
+  left: 360px;
+  top: 700px;
+  width: 816px;
+  height: 203px;
+  background-color: rgba(134, 134, 134, 0.89);
+  border-radius: 10px;
+}
