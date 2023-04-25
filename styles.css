@@ -9,6 +9,10 @@
   background-blend-mode: multiply, normal;
   z-index: -1;
 }
+@media screen and (max-width: 768px) {
+  /* Seu código CSS para telas menores ou iguais a 768px */
+}
+
 
 .dropbtn {
   width: 222px;
