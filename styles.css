@@ -9,10 +9,6 @@
   background-blend-mode: multiply, normal;
   z-index: -1;
 }
-@media screen and (max-width: 768px) {
-  /* Seu código CSS para telas menores ou iguais a 768px */
-}
-
 
 .dropbtn {
   width: 222px;
@@ -181,10 +177,10 @@ body, html {
 .custom-text-2 {
   position: absolute;
   width: 788px;
-  top: 465px;
+  top: 428px;
   left: 360px;
   height: 274px;
-  font-family: 'Apple Chancery', cursive; /* Substitua por uma fonte do Google Fonts ou uma fonte padrão da web, se necessário */
+  font-family: 'Arapey', Arapey; /* Substitua por uma fonte do Google Fonts ou uma fonte padrão da web, se necessário */
   font-style: italic;
   font-weight: normal;
   font-size: 17px;
@@ -210,4 +206,54 @@ body, html {
   height: 203px;
   background-color: rgba(134, 134, 134, 0.89);
   border-radius: 10px;
+}
+
+.rectangle-39 {
+  position: absolute;
+  width: 1231px;
+  height: 371px;
+  left: 126px;
+  top: 887px;
+  background: #b8c8f2;
+  border-radius: 67px;
+}
+
+.tabela-2 {
+  position: absolute;
+  width: 788px;
+  top: 926px;
+  left: 130px;
+  height: 274px;
+  font-family: 'Arapey', Arapey; /* Substitua por uma fonte do Google Fonts ou uma fonte padrão da web, se necessário */
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 19px;
+  text-indent: 2px;
+  color: #0e0303;
+}
+
+.tabela-3 {
+  position: absolute;
+  width: 788px;
+  top: 896px;
+  left: 597px;
+  height: 274px;
+  font-family: 'Arapey', Arapey; /* Substitua por uma fonte do Google Fonts ou uma fonte padrão da web, se necessário */
+  font-style: italic;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 19px;
+  text-indent: 2px;
+  color: #0e0303;
+}
+
+.rectangle-40 {
+  position: absolute;
+  width: 1231px;
+  height: 371px;
+  left: 126px;
+  top: 1353px;
+  background: #b8c8f2;
+  border-radius: 67px;
 }
