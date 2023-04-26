@@ -479,3 +479,72 @@ body, html {
     width: 90%;
   }
 }
+
+/* Adicionado para melhorar a responsividade */
+* {
+  box-sizing: border-box;
+}
+
+/* ... Seu código CSS existente ... */
+
+@media screen and (max-width: 576px) {
+  .dropbtn {
+    width: 150px;
+    font-size: 12px;
+  }
+
+  .phone-number {
+    font-size: 12px;
+  }
+
+  .foto-apresenta {
+    left: 5%;
+    width: 90%;
+    top: 300px;
+  }
+
+  .texto-apresentacao {
+    top: 600px;
+    font-size: 16px;
+  }
+
+  .rectangle-2 {
+    top: 1100px;
+  }
+
+  .custom-text {
+    top: 1300px;
+    font-size: 10px;
+  }
+
+  .custom-text-2 {
+    top: 1450px;
+    font-size: 14px;
+  }
+
+  .group-3 {
+    top: 1700px;
+  }
+
+  .rectangle-39 {
+    top: 1900px;
+  }
+
+  .tabela-2 {
+    top: 2000px;
+    font-size: 14px;
+  }
+
+  .tabela-3 {
+    top: 1970px;
+    font-size: 24px;
+  }
+
+  .agendamento {
+    font-size: 10px;
+  }
+}
+
+/* Media Queries */
+/* ... Suas media queries existentes ... */
+
