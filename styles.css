@@ -556,7 +556,16 @@ body, html {
     top: 50px;
     font-size: 18px;
   }
-
+.rectangle-40 {
+  width: 1231px;
+  height: 371px;
+  left: 126px;
+  top: 803px;
+  background: #b8c8f2;
+  border-radius: 67px;
+    left: 5%;
+    width: 90%;
+  }
   /* Faça ajustes adicionais em outros elementos conforme necessário */
 }
 
