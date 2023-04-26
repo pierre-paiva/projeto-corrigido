@@ -257,3 +257,60 @@ body, html {
   background: #b8c8f2;
   border-radius: 67px;
 }
+
+.rectangle-41 {
+  position: absolute;
+  width: 32px;
+  height: 23px;
+  left: 1186px;
+  top: 18px;
+  background: #DB2C2C;
+  border-radius: 18px;
+  z-index: 1; 
+}
+
+.agendamento {
+  position: absolute;
+  width: 138px;
+  height: 20px;
+  left: 1050px;
+  top: 23px;
+  font-family: 'ABeeZee', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-indent: 2px;
+  color: #f6f2f2;
+}
+
+/* iniciando aqui */
+.submenu {
+  display: none;
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  left: 1082px;
+  top: 50px;
+  background: #FFFFFF;
+  border-radius: 18px;
+  padding: 10px;
+  z-index: 100; 
+}
+
+.submenu input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+}
+
+.submenu button {
+  width: 100%;
+  padding: 5px;
+  background-color: #DB2C2C;
+  color: #f6f2f2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
