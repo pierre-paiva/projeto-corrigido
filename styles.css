@@ -492,7 +492,16 @@ body, html {
     width: 150px;
     font-size: 12px;
   }
-
+.rectangle-40 {
+  width: 1231px;
+  height: 371px;
+  left: 126px;
+  top: 803px;
+  background: #b8c8f2;
+  border-radius: 67px;
+    left: 5%;
+    width: 90%;
+  }
   .phone-number {
     font-size: 12px;
   }
