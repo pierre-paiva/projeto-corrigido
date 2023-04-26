@@ -68,7 +68,7 @@ body, html {
 
 /* Contêiner principal */
 .main-container {
-  min-height: 2000vh;
+  min-height: 1000vh;
   position: relative;
 }
 
@@ -184,10 +184,10 @@ body, html {
   font-family: 'Arapey', Arapey; /* Substitua por uma fonte do Google Fonts ou uma fonte padrão da web, se necessário */
   font-style: italic;
   font-weight: normal;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 19px;
   text-indent: 2px;
-  color: #f1f1f1;
+  color:#000000;
 }
 
 .group-3 {
