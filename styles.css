@@ -23,7 +23,7 @@
 
 .dropdown {
   position: relative;
-  top: 20px;
+  top: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,6 +34,7 @@
   display: none;
   position: absolute;
   background-color: #f1f1f1;
+  top: 20px;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -97,7 +98,6 @@ body, html {
   font-size: 15px;
   line-height: 15px;
   color: #FFFFFF;
-  color: #FFFFFF !important;
   z-index: 10;
 }
 /* ok */
@@ -261,9 +261,9 @@ body, html {
 
 .rectangle-41 {
   position: absolute;
-  width: 32px;
+  width: 40px;
   height: 23px;
-  left: 1186px;
+  left: 1200px;
   top: 18px;
   background: #DB2C2C;
   border-radius: 18px;
@@ -272,10 +272,10 @@ body, html {
 
 .agendamento {
   position: absolute;
-  width: 138px;
+  width: 128px;
   height: 20px;
-  left: 1050px;
-  top: 23px;
+  left: 1102px;
+  top: 11px;
   font-family: 'ABeeZee', sans-serif;
   font-style: italic;
   font-weight: 400;
