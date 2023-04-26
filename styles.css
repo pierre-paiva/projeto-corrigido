@@ -423,4 +423,59 @@ body, html {
     width: 90%;
   }
 }
+@media screen and (max-width: 390px) {
+  .medica-paciente {
+    width: 100%;
+    height: auto;
+  }
 
+  .foto-apresenta {
+    left: 5%;
+    width: 90%;
+    height: auto;
+  }
+
+  .texto-apresentacao {
+    left: 5%;
+    top: 400px;
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .rectangle-2 {
+    left: 5%;
+    top: 1000px;
+    width: 90%;
+    height: auto;
+  }
+
+  .custom-text {
+    left: 5%;
+    top: 1200px;
+    width: 90%;
+  }
+
+  .custom-text-2 {
+    left: 5%;
+    top: 1350px;
+    width: 90%;
+  }
+
+  .group-3 {
+    left: 5%;
+    top: 1600px;
+    width: 90%;
+  }
+
+  .rectangle-39 {
+    left: 5%;
+    top: 1800px;
+    width: 90%;
+  }
+
+  .tabela-2 {
+    left: 5%;
+    top: 1900px;
+    width: 90%;
+  }
+}
