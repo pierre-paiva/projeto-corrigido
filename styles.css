@@ -568,6 +568,11 @@ body, html {
     left: 10%;
     width: 80%;
   }
+  
+element.style {
+    height: 400px;
+    width: 1000px;
+}
 
   .texto-apresentacao {
     /* Ajuste a posição e o tamanho da fonte conforme necessário */
