@@ -501,6 +501,9 @@ body, html {
     width: 150px;
     font-size: 12px;
   }
+  element.style {
+    width: 1000px;
+}
 .rectangle-40 {
   width: 1231px;
   height: 371px;
