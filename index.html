@@ -1,587 +1,127 @@
-/* Cor de fundo */
-.cor-de-fundo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(180deg, rgba(5, 1, 73, 0.691) 0%, rgb(134, 134, 189) 35%, rgba(81,158,174,1) 100%);
-  background-blend-mode: multiply, normal;
-  z-index: -1;
-}
-
-.dropbtn {
-  width: 222px;
-  top: 80px;
-  background-color: #D83737;
-  color: white;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  border-radius: 34px;
-}
-
-.dropdown {
-  position: relative;
-  top: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  top: 20px;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
-
-body, html {
-  margin: 0;
-  padding: 0;
-}
-
-/* Contêiner principal */
-.main-container {
-  min-height: 1000vh;
-  position: relative;
-}
-
-.whatsapp-container {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 3px;
-  left: 11px;
-}
-
-.whatsapp {
-  width: 56px;
-  height: 58px;
-  background: url(whatsapp.jpg);
-  border-radius: 43px;
-  z-index: 10;
-}
-
-.phone-number {
-  margin-left: 10px;
-  width: 100px;
-  height: 39px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 15px;
-  color: #FFFFFF;
-  z-index: 10;
-}
-
-.medica-paciente {
-  position: absolute;
-  width: 1445px;
-  height: 275px;
-  top: 68px;
-  background: url("medica-paciente.png");
-  background-size: cover;
-  border-radius: 0px 0px 98px 0px;
-}
-
-.foto-apresenta {
-  position: absolute;
-  width: 234px;
-  height: 297.54px;
-  left: 110px;
-  top: 468px;
-  background: url("foto-apresenta.jpg");
-  background-size: 100%;
-  border-radius: 32px 32px 32px 32px;
-  .opacity: 1;
-}
-
-.exame-text {
-  position: absolute;
-  left: 240px;
-  top: 6px;
-  width: 341px;
-  height: 30px;
-  font-family: 'Inter', sans-serif;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 18px;
-  color: #abfdff;
-}
-
-.texto-apresentacao {
-  position: absolute;
-  left: 420px;
-  top: 426px;
-  width: 948px;
-  height: 30px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 18px;
-  color: #043637;
-}
-
-.rectangle-2 {
-  position: absolute;
-  left: 467px;
-  top: 879px;
-  width: 806px;
-  height: 227px;
-  background: #F5F5F5;
-  border-radius: 51px;
-}
-
-.custom-text {
-  position: absolute;
-  left: 714px;
-  top: 1440px;
-  width: 804px;
-  height: 177px;
-  font-family: 'Apple Chancery', cursive;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 19px;
-  text-indent: 2px;
-  text-decoration: underline;
-  color: #043637;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.custom-text-2 {
-  position: absolute;
-  width: 788px;
-  top: 428px;
-  left: 360px;
-  height: 274px;
-  font-family: 'Arapey', Arapey;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 19px;
-  text-indent: 2px;
-  color: #000000;
-}
-
-.group-3 {
-  position: absolute;
-  left: 360px;
-  top: 700px;
-  width: 816px;
-  height: 203px;
-  border-radius: 10px;
-}
-
-.group-3 {
-  position: absolute;
-  left: 360px;
-  top: 700px;
-  width: 816px;
-  height: 203px;
-  background-color: rgba(134, 134, 134, 0.89);
-  border-radius: 10px;
-}
-
-.rectangle-39 {
-  position: absolute;
-  width: 1231px;
-  height: 371px;
-  left: 126px;
-  top: 887px;
-  background: #b8c8f2;
-  border-radius: 67px;
-}
-
-.tabela-2 {
-  position: absolute;
-  width: 788px;
-  top: 926px;
-  left: 130px;
-  height: 274px;
-  font-family: 'Arapey', Arapey;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 17px;
-  line-height: 19px;
-  text-indent: 2px;
-  color: #0e0303;
-
-}
-
-.tabela-3 {
-  position: absolute;
-  width: 788px;
-  top: 896px;
-  left: 597px;
-  height: 274px;
-  font-family: 'Arapey', Arapey; /* Substitua por uma fonte do Google Fonts ou uma fonte padrão da web, se necessário */
-  font-style: italic;
-  font-weight: normal;
-  font-size: 37px;
-  line-height: 19px;
-  text-indent: 2px;
-  color: #0e0303;
-}
-
-.rectangle-40 {
-  position: absolute;
-  width: 1231px;
-  height: 371px;
-  left: 126px;
-  top: 1353px;
-  background: #b8c8f2;
-  border-radius: 67px;
-}
-
-.rectangle-41 {
-  position: absolute;
-  width: 40px;
-  height: 23px;
-  left: 1200px;
-  top: 18px;
-  background: #DB2C2C;
-  border-radius: 18px;
-  z-index: 1; 
-}
-
-.agendamento {
-  position: absolute;
-  width: 128px;
-  height: 20px;
-  left: 1102px;
-  top: 11px;
-  font-family: 'ABeeZee', sans-serif;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  text-indent: 2px;
-  color: #f6f2f2;
-}
-
-/* iniciando aqui */
-.submenu {
-  display: none;
-  position: absolute;
-  width: 300px;
-  height: 150px;
-  left: 1082px;
-  top: 50px;
-  background: #FFFFFF;
-  border-radius: 18px;
-  padding: 10px;
-  z-index: 100; 
-}
-
-.submenu input {
-  display: block;
-  margin-bottom: 10px;
-  width: 100%;
-  padding: 5px;
-}
-
-.submenu button {
-  width: 100%;
-  padding: 5px;
-  background-color: #DB2C2C;
-  color: #f6f2f2;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-/* Media Queries */
-@media screen and (max-width: 1200px) {
-  .medica-paciente {
-    width: 100%;
-    height: auto;
-  }
-
-  .foto-apresenta {
-    left: 5%;
-  }
-
-  .texto-apresentacao {
-    left: 40%;
-    width: 50%;
-  }
-
-  .rectangle-2 {
-    left: 30%;
-    width: 70%;
-  }
-
-  .custom-text {
-    left: 40%;
-    width: 50%;
-  }
-
-  .custom-text-2 {
-    left: 20%;
-    width: 80%;
-  }
-
-  .group-3 {
-    left: 20%;
-    width: 80%;
-  }
-
-  .rectangle-39 {
-    left: 5%;
-    width: 90%;
-  }
-
-  .tabela-2 {
-    left: 5%;
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .medica-paciente {
-    width: 100%;
-    height: auto;
-  }
-
-  .foto-apresenta {
-    left: 5%;
-    width: 90%;
-    height: auto;
-  }
-
-  .texto-apresentacao {
-    left: 5%;
-    top: 400px;
-    width: 90%;
-    font-size: 18px;
-  }
-
-  .rectangle-2 {
-    left: 5%;
-    top: 1000px;
-    width: 90%;
-    height: auto;
-  }
-
-  .custom-text {
-    left: 5%;
-    top: 1200px;
-    width: 90%;
-  }
-
-  .custom-text-2 {
-    left: 5%;
-    top: 1350px;
-    width: 90%;
-  }
-
-  .group-3 {
-    left: 5%;
-    top: 1600px;
-    width: 90%;
-  }
-
-  .rectangle-39 {
-    left: 5%;
-    top: 1800px;
-    width: 90%;
-  }
-
-  .tabela-2 {
-    left: 5%;
-    top: 1900px;
-    width: 90%;
-  }
-}
-@media screen and (max-width: 390px) {
-  .medica-paciente {
-    width: 100%;
-    height: auto;
-  }
-
-  .foto-apresenta {
-    left: 5%;
-    width: 90%;
-    height: auto;
-  }
-
-  .texto-apresentacao {
-    left: 5%;
-    top: 400px;
-    width: 90%;
-    font-size: 18px;
-  }
-
-  .rectangle-2 {
-    left: 5%;
-    top: 1000px;
-    width: 90%;
-    height: auto;
-  }
-
-  .custom-text {
-    left: 5%;
-    top: 1200px;
-    width: 90%;
-  }
-
-  .custom-text-2 {
-    left: 5%;
-    top: 1350px;
-    width: 90%;
-  }
-
-  .group-3 {
-    left: 5%;
-    top: 1600px;
-    width: 90%;
-  }
-
-  .rectangle-39 {
-    left: 5%;
-    top: 1800px;
-    width: 90%;
-  }
-
-  .tabela-2 {
-    left: 5%;
-    top: 1900px;
-    width: 90%;
-  }
-}
-/* Adicionado para melhorar a responsividade */
-* {
-  box-sizing: border-box;
-}
-
-/* ... Seu código CSS existente ... */
-
-@media screen and (max-width: 576px) {
-  .dropbtn {
-    width: 150px;
-    font-size: 12px;
-  }
-
-  .phone-number {
-    font-size: 12px;
-  }
-
-  .foto-apresenta {
-    left: 5%;
-    width: 90%;
-    top: 300px;
-  }
-
-  .texto-apresentacao {
-    top: 600px;
-    font-size: 16px;
-  }
-
-  .rectangle-2 {
-    top: 1100px;
-  }
-
-  .custom-text {
-    top: 1300px;
-    font-size: 10px;
-  }
-
-  .custom-text-2 {
-    top: 1450px;
-    font-size: 14px;
-  }
-
-  .group-3 {
-    top: 1700px;
-  }
-  .rectangle-40 {
-    width: 1231px;
-    height: 371px;
-    left: 126px;
-    top: 803px;
-    background: #b8c8f2;
-    border-radius: 67px;
-      left: 5%;
-      width: 90%;
-    }
-
-  .rectangle-39 {
-    top: 1900px;
-  }
-
-  .tabela-2 {
-    top: 2000px;
-    font-size: 14px;
-  }
-
-  .tabela-3 {
-    top: 1970px;
-    font-size: 24px;
-  }
-
-  .agendamento {
-    font-size: 10px;
-  }
-}
-
-@media screen and (max-width: 1284px) and (max-height: 2778px) {
-  .foto-apresenta {
-    /* Ajuste a posição e o tamanho conforme necessário */
-    left: 10%;
-    width: 80%;
-  }
-
-  .texto-apresentacao {
-    /* Ajuste a posição e o tamanho da fonte conforme necessário */
-    top: 450px;
-    font-size: 18px;
-  }
-
-  element.style {
-    height: 400px;
-    width: 1000px;
-}
-
-  .rectangle-40 {
-  width: 1231px;
-  height: 371px;
-  left: 126px;
-  top: 803px;
-  background: #b8c8f2;
-  border-radius: 67px;
-    left: 5%;
-    width: 90%;
-  }
-  /* Faça ajustes adicionais em outros elementos conforme necessário */
-}
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content=""/>
+	  <meta name="keywords" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Dr. Pierre Paiva. Ultrassonografia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+      <div class="rectangle-41"></div>
+      <div class="submenu" id="submenu">
+        <form id="whatsappForm">
+          <input type="text" id="nomeCompleto" name="nomeCompleto" placeholder="Nome completo" required>
+          <input type="text" id="tipoExame" name="tipoExame" placeholder="Tipo de exame" required>
+          <input type="text" id="telefone" name="telefone" placeholder="Telefone" required>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+      
+      <div class="agendamento">AGENDAMENTO clique no botao vermelho</div>
+      <div class="rectangle-39"></div>
+      <div class="rectangle-40"></div>
+    
+        <div class="cor-de-fundo"></div>
+        <div class="dropdown">
+            <button class="dropbtn">Ultrassonografias</button>
+            <div class="dropdown-content">
+            
+              <a href="https://www.google.com/search?q=Ultrassom+abdominal+total+detecta+o+que&sa=X&ved=2ahUKEwix1-mkz8b-AhWoqZUCHQQ2BBEQ1QJ6BAhFEAE&biw=1440&bih=644&dpr=1">Abdominal Total</a>
+              <a href="https://www.google.com/search?q=Ultrassom++tireide+detecta+o+que&biw=1440&bih=644&ei=mpxIZMbEDqeO4dUPzcOf6A4&ved=0ahUKEwjG-cG8z8b-AhUnR7gEHc3hB-0Q4dUDCA8&uact=5&oq=Ultrassom++tireide+detecta+o+que&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIICAAQCBAeEA06CggAEEcQ1gQQsAM6BQgAEIAEOgcIABANEIAEOgYIABAHEB46CAgAEAgQBxAeOggIABAHEB4QCjoGCAAQCBAeOgUIABCiBEoECEEYAFC-Clj6W2C3bGgDcAF4AIABnwGIAdsZkgEEMC4yM5gBAKABAcgBCMABAQ&sclient=gws-wiz-serp">Tireoide</a>
+              <a href="https://www.google.com/search?q=Ultrassom++cervical+detecta+o+que&biw=1440&bih=644&ei=pp1IZPuSJ93d1sQPsai6YA&ved=0ahUKEwj7_b-80Mb-AhXdrpUCHTGUDgwQ4dUDCA8&uact=5&oq=Ultrassom++cervical+detecta+o+que&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQ6CggAEEcQ1gQQsAM6CAgAEAgQBxAeOgYIABAHEB46CAgAEAcQHhAKOgQIABAeOgYIABAIEB46BwgAEA0QgARKBAhBGABKBQhAEgExUPwJWJAnYK45aAFwAXgAgAGiAYgBvBGSAQQwLjE2mAEAoAEByAEIwAEB&sclient=gws-wiz-serp">Cervical</a>
+              <a href="https://www.google.com/search?q=ultrassom+vias+urin%C3%A1rias&biw=1440&bih=644&ei=951IZNqmOd7M1sQPvLS4sAY&oq=Ultrassom++vias++detecta+o+que&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgUIABCiBDIFCAAQogQyBQgAEKIEMgUIABCiBDoKCAAQRxDWBBCwAzoHCAAQDRCABDoGCAAQBxAeOggIABAIEAcQHjoFCAAQgAQ6CAgAEAcQHhAKOgYIABAIEB5KBAhBGABQjQhYjB9gqjRoAXABeACAAacBiAHZDpIBBDAuMTOYAQCgAQHIAQjAAQE&sclient=gws-wiz-serp">Vias urinárias</a>
+              <a href="">Parede Abdominal</a>
+              <a href="https://www.google.com/search?q=ultrassom+de+partes+moles+para+que+serve&biw=1440&bih=644&ei=1KFIZJzlOb3R1sQP1sqF-Ak&ved=0ahUKEwicn-661Mb-AhW9qJUCHVZlAZ8Q4dUDCA8&uact=5&oq=ultrassom+de+partes+moles+para+que+serve&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQ6CggAEEcQ1gQQsAM6CAgAEAcQHhATOgYIABAHEB46BwgAEA0QgARKBAhBGABQwApY9URgik5oAXABeACAAeEBiAHgHJIBBjAuMjMuMZgBAKABAcgBCMABAQ&sclient=gws-wiz-serp">Partes moles</a>
+              <a href="link-para-exame-2.html">Regiao inguinal</a>
+              <a href="link-para-exame-2.html">Mamária</a>
+              <a href="link-para-exame-2.html">Obstétrica</a>
+              <a href="link-para-exame-2.html">Morfológica</a>
+              <a href="link-para-exame-2.html">Transvaginal</a>
+              <a href="link-para-exame-2.html">Pélvica</a>
+              <a href="link-para-exame-2.html">Pesquisa de endometriose</a>
+              <a href="link-para-exame-2.html">Prostática</a>
+              <a href="link-para-exame-2.html">Bolsa escrotal</a>
+              <a href="link-para-exame-2.html">Mamária masculina</a>
+              <a href="link-para-exame-2.html">Doppler venoso de <abbr title="Membros inferiores">MMII</abbr></a>
+              <a href="link-para-exame-2.html">Doppler de carótidas e vertebrais</a>
+              <a href="link-para-exame-2.html">Tireoide com Doppler</a>
+              <a href="link-para-exame-2.html">Doppler arterial de <abbr title="Membros inferiores">MMII</abbr></a>
+              <a href="link-para-exame-2.html">Renal com Doppler</a>
+              <a href="link-para-exame-2.html">Joelho</a>
+              <!-- Adicione os itens aqui conforme necessário -->
+            </div>
+          </div>
+          <div class="whatsapp-container">
+            <div class="whatsapp"></div>
+            <div class="phone-number">88-992766974   85-32355951</div>
+          </div>
+          <div class="medica-paciente"></div>
+          <div class="foto-apresenta"></div>
+          <p class="exame-text">Escolha aqui seu exame e saiba mais sobre ele!</p>
+          <div class="tabela-3"></h1>Ultrassonografias</h1></div>
+          
+            <div class="custom-text-2">
+              Olá e seja bem-vindo ao nosso consultório de ultrassonografia!
+
+<p>Aqui em nosso consultório, temos a missão de oferecer um serviço de ultrassonografia de alta qualidade e confiável, garantindo a você, nosso paciente, uma experiência acolhedora e tranquila. Nossa equipe de profissionais especializados está empenhada em fornecer diagnósticos precisos e orientações claras para o seu bem-estar e saúde.</p>
+
+<p>Ultrassonografia é uma técnica de imagem não invasiva que utiliza ondas sonoras de alta frequência para criar imagens detalhadas do interior do corpo. Este método é seguro e indolor, sendo ideal para monitorar e diagnosticar diversas condições médicas, como gravidez, doenças dos órgãos internos, alterações vasculares, entre outros.</p>
+
+Nosso consultório está equipado com tecnologia de ponta e ambiente confortável, projetado para que você se sinta à vontade durante o seu exame. Priorizamos a privacidade e a comunicação aberta com nossos pacientes, esclarecendo dúvidas e fornecendo informações relevantes sobre o procedimento e seus resultados.
+Convidamos você a navegar pelo nosso site para conhecer melhor nossos serviços e nossa equipe. Se tiver alguma dúvida ou desejar agendar uma consulta, por favor, entre em contato conosco. Estamos ansiosos para cuidar de você e contribuir para sua saúde e bem-estar.
+Seja bem-vindo e conte conosco!
+      </div>
+       <div class="tabela-2">
+       <p><pre>
+<p>Ultrassonografias  Saúde da mulher      Saúde masculina    Ultrassonografias Doppler                Músculo esquelético</p>
+Tireoide            Mamárias             Prostática         Doppler Venoso de membros inferiores    joelho   
+Cervical            Obstétrica           Bolsa escrotal     Doppler de carótidas e vertebrais
+Abdominal Total     Morfológica          Mamária masculina  Tireoide com Doppler
+Vias urinárias      Transvaginal                            Doppler Arterial de MMII
+Parede abdominal    Pélvica                                 Renal com Doppler 
+Partes moles        Pesquisa de endometriose                               
+Região inguinal                                            
+
+            </pre>
+            </p>
+            </div>
+          
+         
+      </div>
+      <!-- comecando aqui -->
+      <script>
+        // Mostra ou oculta o submenu
+        document.querySelector(".rectangle-41").addEventListener("click", function () {
+          const submenu = document.getElementById("submenu");
+          if (submenu.style.display === "none") {
+            submenu.style.display = "block";
+          } else {
+            submenu.style.display = "none";
+          }
+        });
+      
+        // Envia o formulário para o WhatsApp
+        document.getElementById("whatsappForm").addEventListener("submit", function (event) {
+          event.preventDefault();
+      
+          const nomeCompleto = document.getElementById("nomeCompleto").value;
+          const tipoExame = document.getElementById("tipoExame").value;
+          const telefone = document.getElementById("telefone").value;
+      
+          const message = `Nome completo: ${nomeCompleto}\nTipo de exame: ${tipoExame}\nTelefone: ${telefone}`;
+      
+          const encodedMessage = encodeURIComponent(message);
+          const whatsappNumber = "5588992766974"; // Substitua pelo seu número de telefone do WhatsApp
+          const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+      
+          window.open(whatsappUrl, "_blank");
+        });
+      </script>
+      
+  </body>
+</html>
