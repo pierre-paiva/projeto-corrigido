@@ -348,12 +348,13 @@ body, html {
     box-sizing: border-box;
   }
 .agendamento {
-    width: 50px;
+    width: 137px;
+    font-size: 20px;
     height: 50px;
-    top: 212px;
-    left: 1130px;
+    top: 208px;
+    left: 1185px;
+}
   
-  }
   
 .rectangle-41 {
     width: 50px;
@@ -363,8 +364,10 @@ body, html {
     border-radius: 72px 72px 72px 72px;
   }
   .rectangle-41 {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    left: 1107px;
+    height: 60px;
+    top: 201px;
   }
 
   .rectangle-39,
