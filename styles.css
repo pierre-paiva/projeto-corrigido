@@ -348,10 +348,10 @@ body, html {
     box-sizing: border-box;
   }
 .agendamento {
-        max-width: 1552px;
-    box-sizing: border-box;
-    top: 213px;
-    left: 1190px;
+    width: 50px;
+    height: 50px;
+    top: 212px;
+    left: 1130px;
   
   }
   
