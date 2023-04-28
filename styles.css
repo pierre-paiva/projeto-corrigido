@@ -20,10 +20,7 @@
   cursor: pointer;
   border-radius: 34px;
 }
-.hidden {
-  color: transparent;
-  visibility: hidden;
-}
+
 
 .dropdown {
   position: relative;
