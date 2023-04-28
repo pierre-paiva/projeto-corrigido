@@ -347,7 +347,13 @@ body, html {
     max-width: 1552px;
     box-sizing: border-box;
   }
-.agendamento,
+.agendamento, {
+    max-width: 1552px;
+    box-sizing: border-box;
+    top: 161px;
+  
+  }
+  
 .rectangle-41 {
     max-width: 1552px;
     box-sizing: border-box;
