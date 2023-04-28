@@ -324,8 +324,7 @@ body, html {
 @media screen and (max-width: 767px)
 .medica-paciente {
     left200px: inherit;
-    left: 926px;
-    width: 350px;
+    left: -210px;
     height: 85px;
 }
 
