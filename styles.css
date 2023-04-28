@@ -321,6 +321,13 @@ body, html {
   border-radius: 5px;
   cursor: pointer;
 }
+@media screen and (max-width: 767px)
+.medica-paciente {
+    left200px: inherit;
+    left: 926px;
+    width: 350px;
+    height: 85px;
+}
 
 /* Estilos básicos para dispositivos móveis */
 @media screen and (max-width: 767px) {
