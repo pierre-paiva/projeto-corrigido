@@ -103,13 +103,15 @@ body, html {
 
 .medica-paciente {
   position: absolute;
-  width: 1445px;
+  width: 1452px;
   height: 275px;
   top: 68px;
   background: url("medica-paciente.png");
   background-size: cover;
-  border-radius: 0px 0px 98px 0px;
+  border-radius: 0px 0px 142px 0px;
+  opacity: 1.5; /* Adicione a opacidade desejada aqui (valores entre 0 e 1) */
 }
+  
 
 .foto-apresenta {
   position: absolute;
@@ -319,64 +321,36 @@ body, html {
   border-radius: 5px;
   cursor: pointer;
 }
-/* Media Queries for Mobile */
-@media screen and (max-width: 768px) {
-  .dropdown {
-    top: 50px;
+
+/* Estilos básicos para dispositivos móveis */
+@media screen and (max-width: 767px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .dropbtn {
-    width: 160px;
-    font-size: 14px;
-  }
-
-  .whatsapp-container {
-    position: absolute;
-    top: 10px;
-    left: 5px;
-  }
-
-  .phone-number {
-    font-size: 12px;
-  }
-
-  .medica-paciente {
-    width: 100%;
-    height: auto;
-  }
-
-  .foto-apresenta {
-    width: 100%;
-    height: auto;
-  }
-
-  .exame-text {
-    font-size: 14px;
-    text-align: center;
-  }
-
-  .tabela-3 h1 {
-    font-size: 18px;
-  }
-
-  .custom-text-2 {
-    font-size: 14px;
-  }
-
+  .submenu,
+  .whatsapp-container,
+  .medica-paciente,
+  .foto-apresenta,
+  .exame-text,
+  .tabela-3,
+  .custom-text-2,
   .tabela-2 {
-    font-size: 12px;
-    text-align: center;
+    width: 100%;
+    max-width: 320px;
+    box-sizing: border-box;
   }
 
-  .submenu {
-    width: 100%;
-    padding: 10px;
+  .rectangle-41 {
+    width: 50px;
+    height: 50px;
   }
 
-  #whatsappForm input[type="text"] {
+  .rectangle-39,
+  .rectangle-40 {
     width: 100%;
-    margin-bottom: 5px;
   }
 }
-
 
