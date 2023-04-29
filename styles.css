@@ -382,7 +382,11 @@ body, html {
     left: 486px;
 }
   
-  
+ dropdown:hover .dropdown-content {
+    display: block;
+    left: 495px;
+    top: -61px;
+} 
 .rectangle-41 {
     width: 50px;
     height: 50px;
@@ -441,7 +445,11 @@ body, html {
     left: 486px;
 }
   
-  
+ dropdown:hover .dropdown-content {
+    display: block;
+    left: 495px;
+    top: -61px;
+} 
 .rectangle-41 {
     width: 50px;
     height: 50px;
@@ -499,7 +507,11 @@ body, html {
     left: 486px;
 }
   
-  
+dropdown:hover .dropdown-content {
+    display: block;
+    left: 495px;
+    top: -61px;
+}  
 .rectangle-41 {
     width: 50px;
     height: 50px;
@@ -556,7 +568,11 @@ body, html {
     border-radius: 34px;
     left: 486px;
 }
-  
+dropdown:hover .dropdown-content {
+    display: block;
+    left: 495px;
+    top: -61px;
+}  
   
 .rectangle-41 {
     width: 50px;
@@ -623,6 +639,11 @@ body, html {
     left: 1130px;
     border-radius: 72px 72px 72px 72px;
   }
+  dropdown:hover .dropdown-content {
+    display: block;
+    left: 495px;
+    top: -61px;
+}
   .rectangle-41 {
     width: 70px;
     left: 1107px;
