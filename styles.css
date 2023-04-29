@@ -371,15 +371,16 @@ body, html {
   z-index: 10;
 }
   .dropbtn {
-  width: 222px;
-  top: 10px;
-  background-color: #D83737;
-  color: white;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  border-radius: 34px;
-  }
+    width: 222px;
+    top: -81px;
+    background-color: #D83737;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 34px;
+    left: 486px;
+}
   
   
 .rectangle-41 {
