@@ -336,7 +336,10 @@ body, html {
     left: -210px;
     height: 85px;
 }
-
+.phone-number {
+  color: #FFFFFF;
+  z-index: 10;
+}
 /* Estilos básicos para dispositivos móveis */
 @media screen and (max-width: 767px) {
   .main-container {
@@ -363,7 +366,10 @@ body, html {
     top: 208px;
     left: 1185px;
 }
- 
+ .phone-number {
+  color: #FFFFFF;
+  z-index: 10;
+}
   .dropbtn {
   width: 222px;
   top: 10px;
