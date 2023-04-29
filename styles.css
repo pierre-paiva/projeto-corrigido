@@ -396,6 +396,240 @@ body, html {
     height: 60px;
     top: 201px;
   }
+/* Estilos gerais */
+/* ...seus estilos básicos aqui... */
+
+/* Tablets em modo retrato e dispositivos móveis grandes (landscape) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .submenu,
+  .whatsapp-container,
+  .medica-paciente,
+  .foto-apresenta,
+  .exame-text,
+  .tabela-3,
+  .custom-text-2,
+  .tabela-2 {
+    max-width: 1552px;
+    box-sizing: border-box;
+  }
+.agendamento {
+    width: 137px;
+    font-size: 20px;
+    height: 50px;
+    top: 208px;
+    left: 1185px;
+}
+ .phone-number {
+  color: #FFFFFF;
+  z-index: 10;
+}
+  .dropbtn {
+    width: 222px;
+    top: -81px;
+    background-color: #D83737;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 34px;
+    left: 486px;
+}
+  
+  
+.rectangle-41 {
+    width: 50px;
+    height: 50px;
+    top: 212px;
+    left: 1130px;
+    border-radius: 72px 72px 72px 72px;
+  }
+  .rectangle-41 {
+    width: 70px;
+    left: 1107px;
+    height: 60px;
+    top: 201px;
+  }
+}
+
+/* Tablets em modo paisagem e dispositivos móveis grandes (portrait) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+   .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .submenu,
+  .whatsapp-container,
+  .medica-paciente,
+  .foto-apresenta,
+  .exame-text,
+  .tabela-3,
+  .custom-text-2,
+  .tabela-2 {
+    max-width: 1552px;
+    box-sizing: border-box;
+  }
+.agendamento {
+    width: 137px;
+    font-size: 20px;
+    height: 50px;
+    top: 208px;
+    left: 1185px;
+}
+ .phone-number {
+  color: #FFFFFF;
+  z-index: 10;
+}
+  .dropbtn {
+    width: 222px;
+    top: -81px;
+    background-color: #D83737;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 34px;
+    left: 486px;
+}
+  
+  
+.rectangle-41 {
+    width: 50px;
+    height: 50px;
+    top: 212px;
+    left: 1130px;
+    border-radius: 72px 72px 72px 72px;
+  }
+  .rectangle-41 {
+    width: 70px;
+    left: 1107px;
+    height: 60px;
+    top: 201px;
+  }
+}
+
+/* Telas pequenas de laptops e desktops */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .submenu,
+  .whatsapp-container,
+  .medica-paciente,
+  .foto-apresenta,
+  .exame-text,
+  .tabela-3,
+  .custom-text-2,
+  .tabela-2 {
+    max-width: 1552px;
+    box-sizing: border-box;
+  }
+.agendamento {
+    width: 137px;
+    font-size: 20px;
+    height: 50px;
+    top: 208px;
+    left: 1185px;
+}
+ .phone-number {
+  color: #FFFFFF;
+  z-index: 10;
+}
+  .dropbtn {
+    width: 222px;
+    top: -81px;
+    background-color: #D83737;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 34px;
+    left: 486px;
+}
+  
+  
+.rectangle-41 {
+    width: 50px;
+    height: 50px;
+    top: 212px;
+    left: 1130px;
+    border-radius: 72px 72px 72px 72px;
+  }
+  .rectangle-41 {
+    width: 70px;
+    left: 1107px;
+    height: 60px;
+    top: 201px;
+  }
+}
+
+/* Telas grandes de laptops e desktops */
+@media screen and (min-width: 1201px) {
+    .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .submenu,
+  .whatsapp-container,
+  .medica-paciente,
+  .foto-apresenta,
+  .exame-text,
+  .tabela-3,
+  .custom-text-2,
+  .tabela-2 {
+    max-width: 1552px;
+    box-sizing: border-box;
+  }
+.agendamento {
+    width: 137px;
+    font-size: 20px;
+    height: 50px;
+    top: 208px;
+    left: 1185px;
+}
+ .phone-number {
+  color: #FFFFFF;
+  z-index: 10;
+}
+  .dropbtn {
+    width: 222px;
+    top: -81px;
+    background-color: #D83737;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 34px;
+    left: 486px;
+}
+  
+  
+.rectangle-41 {
+    width: 50px;
+    height: 50px;
+    top: 212px;
+    left: 1130px;
+    border-radius: 72px 72px 72px 72px;
+  }
+  .rectangle-41 {
+    width: 70px;
+    left: 1107px;
+    height: 60px;
+    top: 201px;
+  }
+}
 
   .rectangle-39,
   .rectangle-40 {
