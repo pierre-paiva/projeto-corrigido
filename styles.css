@@ -10,13 +10,20 @@
   z-index: -1;
 }
 
-.dropdown {
-  position: relative;
-  top: -188px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
+.dropbtn {
+  position: absolute;
+  width: 222px;
+  top: -157px;
+  left: 50%; /* Centraliza o botão na horizontal */
+  transform: translateX(-50%); /* Ajusta o posicionamento */
+  background-color: #D83737;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 34px;
+  z-index: 2;
+
 }
 
 
