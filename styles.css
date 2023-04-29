@@ -382,7 +382,7 @@ body, html {
     left: 486px;
 }
   
- dropdown:hover .dropdown-content {
+.dropdown-content {
     display: block;
     left: 495px;
     top: -61px;
@@ -445,7 +445,7 @@ body, html {
     left: 486px;
 }
   
- dropdown:hover .dropdown-content {
+.dropdown-content {
     display: block;
     left: 495px;
     top: -61px;
@@ -507,7 +507,7 @@ body, html {
     left: 486px;
 }
   
-dropdown:hover .dropdown-content {
+.dropdown-content {
     display: block;
     left: 495px;
     top: -61px;
@@ -568,7 +568,7 @@ dropdown:hover .dropdown-content {
     border-radius: 34px;
     left: 486px;
 }
-dropdown:hover .dropdown-content {
+.dropdown-content {
     display: block;
     left: 495px;
     top: -61px;
@@ -639,7 +639,7 @@ dropdown:hover .dropdown-content {
     left: 1130px;
     border-radius: 72px 72px 72px 72px;
   }
-  dropdown:hover .dropdown-content {
+  .dropdown-content {
     display: block;
     left: 495px;
     top: -61px;
