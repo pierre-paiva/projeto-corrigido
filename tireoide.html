@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultrassom de Tireoide - Indicações e Informações</title>
     <style>
+        /* Estilos para o botão e submenu */
+.btn-agendar {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submenu {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.submenu input[type="text"], .submenu input[type="tel"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submenu input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
         /* Reset de margens e espaçamento */
         * {
             margin: 0;
@@ -62,13 +107,14 @@
             margin-bottom: 20px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-         body {
+        body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             background: linear-gradient(180deg, rgba(5, 1, 73, 0.691) 0%, rgb(134, 134, 189) 35%, rgba(81,158,174,1) 100%);
             color: #333;
             padding: 20px;
         }
+
 
         /* Responsividade para dispositivos móveis */
         @media screen and (max-width: 768px) {
@@ -131,6 +177,40 @@
                 </li>
             </ul>
         </section>
+        <section>
+            <h2>Agende seu exame</h2>
+            <button id="agendarExame" style="background-color: green; color: white; padding: 10px 20px; cursor: pointer;">Agendar exame</button>
+            <div id="agendarForm" style="display: none;">
+                <form>
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" name="nome" required><br><br>
+                    <label for="tipoExame">Tipo de exame:</label>
+                    <input type="text" id="tipoExame" name="tipoExame" required><br><br>
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" required><br><br>
+                    <button type="submit" id="enviar" style="background-color: green; color: white; padding: 10px 20px; cursor: pointer;">Enviar</button>
+                </form>
+            </div>
+        </section>
     </main>
+    <script>
+        $(document).ready(function() {
+            $("#agendarExame").click(function() {
+                $("#agendarForm").toggle();
+            });
+
+            $("#telefone").mask("(00) 00000-0000");
+
+            $("form").submit(function(event) {
+                event.preventDefault();
+                var nome = $("#nome").val();
+                var tipoExame = $("#tipoExame").val();
+                var telefone = $("#telefone").val();
+                var mensagem = "Nome: " + nome + "%0A" + "Tipo de exame: " + tipoExame + "%0A" + "Telefone: " + telefone;
+                var url = "https://wa.me/558532355951?text=" + encodeURIComponent(mensagem);
+                window.open(url, '_blank');
+            });
+        });
+    </script>
 </body>
 </html>
