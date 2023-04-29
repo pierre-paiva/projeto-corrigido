@@ -10,15 +10,13 @@
   z-index: -1;
 }
 
-.dropbtn {
-  width: 222px;
-  top: 10px;
-  background-color: #D83737;
-  color: white;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  border-radius: 34px;
+.dropdown {
+  position: relative;
+  top: -188px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 
